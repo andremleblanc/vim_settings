@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-rails'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,3 +23,4 @@ set number
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
 map <C-n> :NERDTreeToggle<CR>
+let g:ctrlp_custom_ignore = 'tmp.*'
