@@ -10,6 +10,7 @@ set backupdir=$HOME/.vim/backups/
 set cursorline
 set directory=$HOME/.vim/swapfiles//
 set encoding=utf-8
+set expandtab
 set laststatus=2
 set number
 set ruler
@@ -17,6 +18,7 @@ set scrolloff=3
 set shiftwidth=2
 set showcmd
 set showmode
+set smarttab
 set tabstop=2
 set ttyfast
 set undodir=$HOME/.vim/undos/
